@@ -15,24 +15,15 @@ p {
 *{
   font-family: 'Saira Condensed', sans-serif;
 }
-
-/* @media (max-width:646px) {
-  
-  .app{
-    background-image: url('../src/assets/fundo.png') ;
-    height: 200vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }  
-} */
-
 .app{
   background-image: url('../src/assets/fundo.png') ;
   height: 200vh;
-  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 0;
+  background-size: contain;
   background-size: cover;
+  z-index: -999;
+
+  position: relative;
 }  
+ 

@@ -1,9 +1,11 @@
 import './reset.css' 
+import HeaderLogo from './components/HeaderLogo';
+
 
 function App() {
   return (
     <div className="app">
-      a
+      <HeaderLogo/>
     </div>
   );
 }

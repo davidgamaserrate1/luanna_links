@@ -1,0 +1,20 @@
+.header_logo {
+    color: #fff;
+    background-image: url('../assets/logo.png');
+     
+    
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center 0;
+     
+    background-size: contain;
+    background-size: cover;
+    z-index: -999;
+  
+     
+  }
+ .header_name{
+    font-weight: bold;
+    
+ }
